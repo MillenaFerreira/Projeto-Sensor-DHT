@@ -1,5 +1,5 @@
 
-Sensor de Temperatura
+Sensor de DHT11/22
 
 ## Equipe
 
