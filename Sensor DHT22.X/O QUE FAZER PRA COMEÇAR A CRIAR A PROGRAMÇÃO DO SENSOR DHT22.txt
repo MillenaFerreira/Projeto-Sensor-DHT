@@ -1,0 +1,8 @@
+Primeiro criar uma variavel para armazenar os  dados enviados ao pino RC0 pelo sensor
+buscar esse tipo de programação no Projeto anterior, se nao me engano e o displayLCDEDIT
+
+XXXXXXXXXXXXXXXXXXXXXXparei a programação no dht.c
+
+XXXXXXXXXXXXXXXXXXXXmostrar no display a temperatura e a umidade
+
+criar funcao de comunicação
