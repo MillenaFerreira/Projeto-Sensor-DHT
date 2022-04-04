@@ -1,0 +1,268 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 Z:\JoseProjetos\Técnco\Sensor DHT22.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"19 Z:\JoseProjetos\Técnco\Sensor DHT22.X\dht.c
+[v _dht_read dht_read `(v  1 e 1 0 ]
+"8 Z:\JoseProjetos\Técnco\Sensor DHT22.X\editnum.c
+[v _edit edit `(v  1 e 1 0 ]
+"58 Z:\JoseProjetos\Técnco\Sensor DHT22.X\lcd.c
+[v _lcd_instReg lcd_instReg `(v  1 e 1 0 ]
+"93
+[v _lcd_dataReg lcd_dataReg `(v  1 e 1 0 ]
+"111
+[v _lcd_lincol lcd_lincol `(v  1 e 1 0 ]
+"121
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"156
+[v _lcd_print lcd_print `(v  1 e 1 0 ]
+"178
+[v _lcd_num lcd_num `(v  1 e 1 0 ]
+"11 Z:\JoseProjetos\Técnco\Sensor DHT22.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"9 Z:\JoseProjetos\Técnco\Sensor DHT22.X\teclado.c
+[v _teclado_init teclado_init `(v  1 e 1 0 ]
+"23
+[v _teclado teclado `(uc  1 e 1 0 ]
+"228 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S40 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES49  1 e 1 @8 ]
+[s S182 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1366
+[s S189 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S193 . 1 `S182 1 . 1 0 `S189 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES193  1 e 1 @129 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S65 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S74 . 1 `S65 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES74  1 e 1 @136 ]
+"2346
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"6 Z:\JoseProjetos\Técnco\Sensor DHT22.X\editnum.c
+[v _teclaAnt teclaAnt `uc  1 e 1 0 ]
+[s S128 . 4 `uc 1 umidafra 1 0 `uc 1 umida 1 1 `uc 1 tempefra 1 2 `uc 1 temperatu 1 3 ]
+"9 Z:\JoseProjetos\Técnco\Sensor DHT22.X\main.c
+[u S133 . 4 `S128 1 dht 4 0 `ul 1 bits 4 0 ]
+[v _sensor sensor `S133  1 e 4 0 ]
+"18 Z:\JoseProjetos\Técnco\Sensor DHT22.X\teclado.c
+[v _tecladoMatriz tecladoMatriz `DC[4][4]uc  1 e 16 0 ]
+"11 Z:\JoseProjetos\Técnco\Sensor DHT22.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"34
+[v main@fases fases `uc  1 a 1 17 ]
+"14
+[v main@num num `i  1 a 2 18 ]
+"15
+[v main@tecla tecla `uc  1 a 1 16 ]
+"13
+[v main@string string `DC[14]uc  1 s 14 string ]
+"66
+} 0
+"9 Z:\JoseProjetos\Técnco\Sensor DHT22.X\teclado.c
+[v _teclado_init teclado_init `(v  1 e 1 0 ]
+{
+"16
+} 0
+"23
+[v _teclado teclado `(uc  1 e 1 0 ]
+{
+"26
+[v teclado@c c `uc  1 a 1 9 ]
+[v teclado@l l `uc  1 a 1 8 ]
+"25
+[v teclado@aux aux `uc  1 a 1 7 ]
+"38
+} 0
+"156 Z:\JoseProjetos\Técnco\Sensor DHT22.X\lcd.c
+[v _lcd_print lcd_print `(v  1 e 1 0 ]
+{
+[v lcd_print@lin lin `uc  1 a 1 wreg ]
+"158
+[v lcd_print@pos pos `uc  1 a 1 9 ]
+"156
+[v lcd_print@lin lin `uc  1 a 1 wreg ]
+[v lcd_print@col col `uc  1 p 1 6 ]
+[v lcd_print@str str `*.24DCuc  1 p 1 7 ]
+"158
+[v lcd_print@lin lin `uc  1 a 1 10 ]
+"167
+} 0
+"178
+[v _lcd_num lcd_num `(v  1 e 1 0 ]
+{
+[v lcd_num@lin lin `uc  1 a 1 wreg ]
+"181
+[v lcd_num@div div `i  1 a 2 6 ]
+"183
+[v lcd_num@sinal sinal `uc  1 a 1 5 ]
+"182
+[v lcd_num@size size `uc  1 a 1 4 ]
+"178
+[v lcd_num@lin lin `uc  1 a 1 wreg ]
+[v lcd_num@col col `uc  1 p 1 9 ]
+"179
+[v lcd_num@num num `i  1 p 2 10 ]
+[v lcd_num@tam tam `uc  1 p 1 12 ]
+"185
+[v lcd_num@lin lin `uc  1 a 1 3 ]
+"218
+} 0
+"111
+[v _lcd_lincol lcd_lincol `(v  1 e 1 0 ]
+{
+[v lcd_lincol@lin lin `uc  1 a 1 wreg ]
+[v lcd_lincol@lin lin `uc  1 a 1 wreg ]
+[v lcd_lincol@col col `uc  1 p 1 3 ]
+"113
+[v lcd_lincol@lin lin `uc  1 a 1 5 ]
+"114
+} 0
+"93
+[v _lcd_dataReg lcd_dataReg `(v  1 e 1 0 ]
+{
+[v lcd_dataReg@d d `uc  1 a 1 wreg ]
+[v lcd_dataReg@d d `uc  1 a 1 wreg ]
+"95
+[v lcd_dataReg@d d `uc  1 a 1 2 ]
+"106
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"121 Z:\JoseProjetos\Técnco\Sensor DHT22.X\lcd.c
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"138
+} 0
+"58
+[v _lcd_instReg lcd_instReg `(v  1 e 1 0 ]
+{
+[v lcd_instReg@i i `uc  1 a 1 wreg ]
+[v lcd_instReg@i i `uc  1 a 1 wreg ]
+"60
+[v lcd_instReg@i i `uc  1 a 1 2 ]
+"88
+} 0
+"12 Z:\JoseProjetos\Técnco\Sensor DHT22.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `ui  1 p 2 0 ]
+"19
+} 0
+"8 Z:\JoseProjetos\Técnco\Sensor DHT22.X\editnum.c
+[v _edit edit `(v  1 e 1 0 ]
+{
+[v edit@ptr_edit ptr_edit `*.4i  1 a 1 wreg ]
+"15
+[v edit@aux aux `l  1 a 4 7 ]
+"8
+[v edit@ptr_edit ptr_edit `*.4i  1 a 1 wreg ]
+"9
+[v edit@tecla tecla `uc  1 p 1 0 ]
+"10
+[v edit@delete delete `uc  1 p 1 1 ]
+"11
+[v edit@menos menos `uc  1 p 1 2 ]
+"12
+[v edit@min min `ui  1 p 2 3 ]
+"13
+[v edit@max max `ui  1 p 2 5 ]
+"16
+[v edit@ptr_edit ptr_edit `*.4i  1 a 1 11 ]
+"35
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"19 Z:\JoseProjetos\Técnco\Sensor DHT22.X\dht.c
+[v _dht_read dht_read `(v  1 e 1 0 ]
+{
+[s S128 . 4 `uc 1 umidafra 1 0 `uc 1 umida 1 1 `uc 1 tempefra 1 2 `uc 1 temperatu 1 3 ]
+[u S133 . 4 `S128 1 dht 4 0 `ul 1 bits 4 0 ]
+[v dht_read@ptr ptr `*.4S133  1 a 1 wreg ]
+[v dht_read@ptr ptr `*.4S133  1 a 1 wreg ]
+"21
+"19
+[v dht_read@ptr ptr `*.4S133  1 a 1 1 ]
+"23
+} 0
