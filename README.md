@@ -8,9 +8,7 @@ Sensor de DHT11/22
 * Gustavo Henrique
 * Emanuel Miguel
 * Lucas Francisco
-| Introdução |
-|:--:|
-!https://github.com/MillenaFerreira/MERGL/blob/main/README.md#introdu%C3%A7%C3%A3o
+
 
 ## Introdução
 
