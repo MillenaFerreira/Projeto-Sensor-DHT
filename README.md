@@ -65,7 +65,11 @@ Atenção ao utiliza-lo:
 ![image](https://user-images.githubusercontent.com/88831304/168302642-c52703fb-7a31-4347-9d91-14f809c70a3b.png)
 | Tabela |
 
-IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
+| Figura 1: Estrutura |
+|:--:|
+![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
+| Sensores |
+
 Pinagem do DHT22
 
 ## PIC16F887
@@ -83,8 +87,10 @@ MEMORIA DE PROGRAMAÇÃO	14KB
 RAM BYTES	368
 DATA EEPROM	256 bytes
 
-IMAGEM:  ![image](https://user-images.githubusercontent.com/88831304/168300992-7938fd02-d67d-4ff8-b8df-52e2ffe59010.png)
-
+| Figura 1: Estrutura |
+|:--:|
+![image](https://user-images.githubusercontent.com/88831304/168300992-7938fd02-d67d-4ff8-b8df-52e2ffe59010.png)
+| Tabela |
 ##LCD 16x02
 
 O Display LCD 16x2 é um modelo de display vastamente utilizado em projetos onde se necessita uma interface homem-máquina (IHM). Ele é composto por 16 colunas e 2 linhas com a escrita na cor branca e sua backlight (luz de fundo) azul para exibição de caracteres, letras e números de forma clara e nítida, melhorando a visibilidade para quem recebe a informação. 
@@ -99,8 +105,10 @@ CORRENTE DO BLACKLIGHT	75mA  a  200mA
 DATA DE ENTRADA	4 a 8 bits
 CONTROLADOR	HD447780
 
-IMAGEM:  ![image](https://user-images.githubusercontent.com/88831304/168301131-e7cd4ce0-8524-41f9-b305-04fc5ebd0ecb.png)
-
+| Figura 1: Estrutura |
+|:--:|
+![image](https://user-images.githubusercontent.com/88831304/168301131-e7cd4ce0-8524-41f9-b305-04fc5ebd0ecb.png)
+| Tabela |
 ## Objetivo do projeto
 
 Este projeto tem como objetivo o monitoramento do controle de temperatura da empresa. O projeto utilizará um sensor para detectar a temperatura ambiente. E por meio de um micro controlador o PIC16F887 também serão exibidos valores máximos e mínimos de temperatura e umidade do ambiente. Esses valores serão exibidos no LCD 16x02, e com a ajuda de um teclado fará a integração entre o PIC e o LCD. 
