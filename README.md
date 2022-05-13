@@ -46,6 +46,7 @@ Existem diversos sensores de acordo com a aplicação como, por exemplo o LM34/3
 DHT11 é o “irmão mais velho”, ou seja, tem menos benefícios em relação ao DHT22, portanto, um preço mais alto. O DHT11 pode ser usado para projetos onde não a necessita de uma alta precisão de medição, enquanto se desejar algo mais preciso deve escolher o DHT22. O DHT22 também não é de alta precisão, mas tem um desempenho maior para a maioria dos projetos do DIY “Faça você mesmo”.
 
 | Figura 2: Estrutura|
+|:--:|
 |![image](https://user-images.githubusercontent.com/88831304/168301917-11105c64-f632-49d1-84e8-14afcae597ad.png)
 | Sensores |
 ## DHT22
