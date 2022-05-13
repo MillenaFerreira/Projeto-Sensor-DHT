@@ -22,7 +22,7 @@ O projeto abordará a importância de um ambiente controlado e do monitoramento 
 
 ## A Importância do planejamento de um ambiente controlado
 
-Planejar o controle térmico de um ambiente leva tempo e é um processo contínuo, no mercado de análise e controle de temperatura é possível encontrar inúmeros aparelhos e registradores, com diversas funções e opcionais. Por isso, é preciso parar para pensar quais têm, efetivamente, as funcionalidades que realmente necessita no seu ambiente controlado, este projeto (neste projeto) mostrará um aparelho nesse ramo que pretende atender os seus requisitos de forma adequada e planejada, dessa forma conseguirá ter um bom custo benefício e qualidade em apenas um produto. Para ajudar na decisão eis que determinamos o seu conjunto de adequações deste dispositivo 
+Planejar o controle térmico de um ambiente leva tempo e é um processo contínuo, no mercado de análise e controle de temperatura é possível encontrar inúmeros aparelhos e registradores, com diversas funções e opcionais. Por isso, é preciso parar para pensar quais têm, efetivamente, as funcionalidades que realmente necessita no seu ambiente controlado, este projeto (neste projeto) mostrará um aparelho nesse ramo que pretende atender os seus requisitos de forma adequada e planejada, dessa forma conseguirá ter um bom custo benefício e qualidade em apenas um produto. Para ajudar na decisão eis que determinamos o seu conjunto de adequações deste dispositivo :
 
 •	Capacidade de Armazenamento: essa memória é capaz de armazenar MCU 14KB flash 368 RAM 36 I/O (PIC16F887). A taxa de amostragem é de até 0,5Hz (2 leituras por segundo).
 
@@ -32,10 +32,10 @@ Planejar o controle térmico de um ambiente leva tempo e é um processo contínu
 
 •	Dimensão: 
 
-| Figura 1: Estrutura |
+| Figura 1: Placa |
 |:--:|
 | ![image](https://user-images.githubusercontent.com/88831304/168298909-886dfd6e-b0e6-4f81-810a-69289bba0e09.png) |
-| Fonte: Próprio autor |
+| Fonte: Projetista |
 
 ## Monitoramento de Temperatura
 
@@ -60,6 +60,7 @@ Atenção ao utiliza-lo:
 •	Evite usar o sensor em condições de orvalho.
 
 •	Não use este produto em dispositivos de segurança ou parada de emergência ou qualquer outra ocasião em que a falha do DHT22 possa causar danos pessoais.
+
 | Figura 1: Estrutura |
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168302642-c52703fb-7a31-4347-9d91-14f809c70a3b.png)
@@ -91,6 +92,7 @@ DATA EEPROM	256 bytes
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168300992-7938fd02-d67d-4ff8-b8df-52e2ffe59010.png)
 | Tabela |
+
 ##LCD 16x02
 
 O Display LCD 16x2 é um modelo de display vastamente utilizado em projetos onde se necessita uma interface homem-máquina (IHM). Ele é composto por 16 colunas e 2 linhas com a escrita na cor branca e sua backlight (luz de fundo) azul para exibição de caracteres, letras e números de forma clara e nítida, melhorando a visibilidade para quem recebe a informação. 
@@ -109,6 +111,7 @@ CONTROLADOR	HD447780
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168301131-e7cd4ce0-8524-41f9-b305-04fc5ebd0ecb.png)
 | Tabela |
+
 ## Objetivo do projeto
 
 Este projeto tem como objetivo o monitoramento do controle de temperatura da empresa. O projeto utilizará um sensor para detectar a temperatura ambiente. E por meio de um micro controlador o PIC16F887 também serão exibidos valores máximos e mínimos de temperatura e umidade do ambiente. Esses valores serão exibidos no LCD 16x02, e com a ajuda de um teclado fará a integração entre o PIC e o LCD. 
