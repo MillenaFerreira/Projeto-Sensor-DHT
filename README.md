@@ -36,16 +36,16 @@ Os dispositivos mais tradicionais possuem uma conexão com o sensor de temperatu
 Existem diversos sensores de acordo com a aplicação como, por exemplo o LM34/35/335, TMP36 e DS18B20 todos eles são usados para a mesma função, este projeto utilizará a família DHT por conta da sua viabilidade e acessibilidade além de ter um baixo custo no mercado e a sua precisão ao medir a temperatura.
 DHT11 é o “irmão mais velho”, ou seja, tem menos benefícios em relação ao DHT22, portanto, um preço mais alto. O DHT11 pode ser usado para projetos onde não a necessita de uma alta precisão de medição, enquanto se desejar algo mais preciso deve escolher o DHT22. O DHT22 também não é de alta precisão, mas tem um desempenho maior para a maioria dos projetos do DIY “Faça você mesmo”.
 
-IMAGEM:![image](https://user-images.githubusercontent.com/88831304/168299313-c930038e-47c7-47d3-a438-72dc52af8100.png)
+IMAGEM: ![image](https://user-images.githubusercontent.com/88831304/168299313-c930038e-47c7-47d3-a438-72dc52af8100.png)
 
-IMAGEM:![image](https://user-images.githubusercontent.com/88831304/168299338-0e998a60-dd3a-4e92-aa06-d06ef2a5513c.png)
+IMAGEM: ![image](https://user-images.githubusercontent.com/88831304/168299338-0e998a60-dd3a-4e92-aa06-d06ef2a5513c.png)
 
-IMAGEM:![image](https://user-images.githubusercontent.com/88831304/168299365-8adbf5c3-bdf1-422f-9052-511940e3a2a2.png)
+IMAGEM: ![image](https://user-images.githubusercontent.com/88831304/168299365-8adbf5c3-bdf1-422f-9052-511940e3a2a2.png)
 
-IMAGEM:![image](https://user-images.githubusercontent.com/88831304/168299396-6e8ee9d5-a60e-45b7-a207-231b141533d9.png)
+IMAGEM: ![image](https://user-images.githubusercontent.com/88831304/168299396-6e8ee9d5-a60e-45b7-a207-231b141533d9.png)
 
 
-IMAGEM:![image](https://user-images.githubusercontent.com/88831304/168299413-ecc2e950-0093-4c43-8f0b-0877e611cf8c.png)
+IMAGEM: ![image](https://user-images.githubusercontent.com/88831304/168299413-ecc2e950-0093-4c43-8f0b-0877e611cf8c.png)
 
 ## DHT22
 
@@ -55,6 +55,48 @@ Atenção ao utiliza-lo:
 •	A temperatura de soldagem deve ser inferior a 260 ºC.
 •	Evite usar o sensor em condições de orvalho.
 •	Não use este produto em dispositivos de segurança ou parada de emergência ou qualquer outra ocasião em que a falha do DHT22 possa causar danos pessoais.
+IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300129-a3c79b4a-a16d-4c7b-a46d-46fef685f122.png)
+INAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
+Pinagem do DHT22
+
+## PIC16F887
+
+O PIC16F887 é um micro controlador de 8 bits da Microchip. O IC de 40 pinos possui ADC de 14 canais e 10 bits, tornando-o adequado para aplicações que exigem mais entradas ADC. O IC também possui 2 Comparadores, 2 Temporizadores (8 bits e 16 bits) e suporta protocolos de comunicação SPI, I2C e UART.
+
+
+PIC16F887
+CPU	8 – bits PIC
+NÚMEROS DE PINOS	40
+TENSÃO DE OPERAÇÃO	2 a 5,5V
+OSCILADOR EXTERNO	Suporta até 20MHz
+OSCILADOR INTERNO	8MHz  a  32KHz
+MEMORIA DE PROGRAMAÇÃO	14KB
+RAM BYTES	368
+DATA EEPROM	256 bytes
+
+IMAGEM:  ![image](https://user-images.githubusercontent.com/88831304/168300992-7938fd02-d67d-4ff8-b8df-52e2ffe59010.png)
+
+##LCD 16x02
+
+O Display LCD 16x2 é um modelo de display vastamente utilizado em projetos onde se necessita uma interface homem-máquina (IHM). Ele é composto por 16 colunas e 2 linhas com a escrita na cor branca e sua backlight (luz de fundo) azul para exibição de caracteres, letras e números de forma clara e nítida, melhorando a visibilidade para quem recebe a informação. 
+Ele utiliza o controlador HD44780, utilizado em toda indústria de LCD's como base de interface que pode ser operado em 4 ou 8-bits paralelamente. Sua conexão é feita através de 16 pinos, sendo 12 deles para conexão básica com o micro controlador e 11 deles pinos de entrada/saída (I/O) e os demais pinos para ajuste de contraste através de potenciômetros, trimpots e afins e para a alimentação da backlight. Também é possível fazer a comunicação I2C com um micro controlador. Fácil interação com qualquer micro controlador, como Arduino, Raspberry, PIC, entre outros, o display 16x2 ideal para empresas de tecnologia, projetistas, estudantes, hobbys às e iniciantes na profissão de programação.
+
+LCD 16X02
+TENSÃO DE OPERAÇÃO	4,5V  a  5,5V
+TENSÃO DE ENTRADA	DC 0,3V a +0,3V
+TEMPERATURA DE OPERAÇÃO MÁX.	+50°C
+CORRENTE	1.0mA  a 1.5mA
+CORRENTE DO BLACKLIGHT	75mA  a  200mA
+DATA DE ENTRADA	4 a 8 bits
+CONTROLADOR	HD447780
+
+IMAGEM:  ![image](https://user-images.githubusercontent.com/88831304/168301131-e7cd4ce0-8524-41f9-b305-04fc5ebd0ecb.png)
+
+## Objetivo do projeto
+
+Este projeto tem como objetivo o monitoramento do controle de temperatura da empresa. O projeto utilizará um sensor para detectar a temperatura ambiente. E por meio de um micro controlador o PIC16F887 também serão exibidos valores máximos e mínimos de temperatura e umidade do ambiente. Esses valores serão exibidos no LCD 16x02, e com a ajuda de um teclado fará a integração entre o PIC e o LCD. 
+
+
 
 
 
