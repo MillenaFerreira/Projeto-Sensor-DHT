@@ -58,7 +58,7 @@ Atenção ao utiliza-lo:
 IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168302642-c52703fb-7a31-4347-9d91-14f809c70a3b.png)
 
 
-INAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
+IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
 Pinagem do DHT22
 
 ## PIC16F887
