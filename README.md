@@ -69,9 +69,8 @@ Atenção ao utiliza-lo:
 | Figura 1: Estrutura |
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
-| Sensores |
+| Pinagem do DHT22 |
 
-Pinagem do DHT22
 
 ## PIC16F887
 
@@ -93,7 +92,7 @@ DATA EEPROM	256 bytes
 ![image](https://user-images.githubusercontent.com/88831304/168300992-7938fd02-d67d-4ff8-b8df-52e2ffe59010.png)
 | Tabela |
 
-##LCD 16x02
+## LCD 16x02
 
 O Display LCD 16x2 é um modelo de display vastamente utilizado em projetos onde se necessita uma interface homem-máquina (IHM). Ele é composto por 16 colunas e 2 linhas com a escrita na cor branca e sua backlight (luz de fundo) azul para exibição de caracteres, letras e números de forma clara e nítida, melhorando a visibilidade para quem recebe a informação. 
 Ele utiliza o controlador HD44780, utilizado em toda indústria de LCD's como base de interface que pode ser operado em 4 ou 8-bits paralelamente. Sua conexão é feita através de 16 pinos, sendo 12 deles para conexão básica com o micro controlador e 11 deles pinos de entrada/saída (I/O) e os demais pinos para ajuste de contraste através de potenciômetros, trimpots e afins e para a alimentação da backlight. Também é possível fazer a comunicação I2C com um micro controlador. Fácil interação com qualquer micro controlador, como Arduino, Raspberry, PIC, entre outros, o display 16x2 ideal para empresas de tecnologia, projetistas, estudantes, hobbys às e iniciantes na profissão de programação.
