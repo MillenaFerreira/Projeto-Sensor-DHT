@@ -31,7 +31,11 @@ Planejar o controle térmico de um ambiente leva tempo e é um processo contínu
 •	Faixa de monitoramento e precisão: este aparelho é de uma precisão que é boa para a medição de temperatura entre - 40ºC e 80ºC, com +- 0,5ºC de precisão.
 
 •	Dimensão: 
-IMAGEM: ![image](https://user-images.githubusercontent.com/88831304/168298909-886dfd6e-b0e6-4f81-810a-69289bba0e09.png)
+
+| Figura 1: Estrutura |
+|:--:|
+| ![image](https://user-images.githubusercontent.com/88831304/168298909-886dfd6e-b0e6-4f81-810a-69289bba0e09.png) |
+| Fonte: Próprio autor |
 
 ## Monitoramento de Temperatura
 
