@@ -9,6 +9,8 @@ Sensor de DHT11/22
 * Emanuel Miguel
 * Lucas Francisco
 
+https://github.com/MillenaFerreira/MERGL/blob/main/README.md#introdu%C3%A7%C3%A3o
+
 ## Introdução
 
 Esse  projeto  aborda  o  sensor  de  temperatura  DHT22 que  será  responsável  por  melhorar  o sistema  de  exaustão/ventilação  de  um  galpão  em  que  ocorre  a  produção,  trazendo  mais conforto e condições dignas de trabalho aos funcionários do setor. Este projeto  tem  como  seu  cérebro  o  PIC16F887  que  será  responsável  por  toda  lógica  de programação,  que  com  auxílio  de  um  Display  LCD  fará  o  controle  e  exibição  de  valores mínimos, máximos e médios das grandezas para o período de X horas configuráveis.
