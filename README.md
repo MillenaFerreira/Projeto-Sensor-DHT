@@ -116,7 +116,11 @@ CONTROLADOR	HD447780
 Este projeto tem como objetivo o monitoramento do controle de temperatura da empresa. O projeto utilizará um sensor para detectar a temperatura ambiente. E por meio de um micro controlador o PIC16F887 também serão exibidos valores máximos e mínimos de temperatura e umidade do ambiente. Esses valores serão exibidos no LCD 16x02, e com a ajuda de um teclado fará a integração entre o PIC e o LCD. 
 
 
+prev_page_href = client.last_response.rels[:prev] ? client.last_response.rels[:prev].href : "(none)"
+next_page_href = client.last_response.rels[:next] ? client.last_response.rels[:next].href : "(none)"
 
+puts "The prev page link is #{prev_page_href}"
+puts "The next page link is #{next_page_href}"
 
 
 
