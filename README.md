@@ -15,7 +15,10 @@ Esse  projeto  aborda  o  sensor  de  temperatura  DHT22 que  será  responsáve
 
 ## Ambiente Controlado
 
-Esse  projeto  aborda  o  sensor  de  temperatura  DHT22 que  será  responsável  por  melhorar  o sistema  de  exaustão/ventilação  de  um  galpão  em  que  ocorre  a  produção,  trazendo  mais conforto e condições dignas de trabalho aos funcionários do setor. Este projeto  tem  como  seu  cérebro  o  PIC16F887  que  será  responsável  por  toda  lógica  de programação,  que  com  auxílio  de  um  Display  LCD  fará  o  controle  e  exibição  de  valores mínimos, máximos e médios das grandezas para o período de X horas configuráveis.
+O ambiente controlado é uma área cujos os parâmetros são devidamente controlados por aparelhos de monitoramento de temperatura, em especifico esses equipamentos controlam a pressão, temperatura, emissões radioativas, umidade e segregação. 
+Um exemplo claro de ambiente controlado é o laboratório. Nesse ambiente, sabemos que existe a necessidade de temperatura e pressão específicas, tanto para manter a integridade de materiais e substâncias, como para a segurança dos técnicos.
+O projeto abordará a importância de um ambiente controlado e do monitoramento de temperatura com um sensor e seus respectivos componentes.
+
 
 ## A Importância do planejamento de um ambiente controlado
 
