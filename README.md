@@ -115,7 +115,29 @@ CONTROLADOR	HD447780
 
 Este projeto tem como objetivo o monitoramento do controle de temperatura da empresa. O projeto utilizará um sensor para detectar a temperatura ambiente. E por meio de um micro controlador o PIC16F887 também serão exibidos valores máximos e mínimos de temperatura e umidade do ambiente. Esses valores serão exibidos no LCD 16x02, e com a ajuda de um teclado fará a integração entre o PIC e o LCD. 
 
+require 'octokit'
 
+# !!! DO NOT EVER USE HARD-CODED VALUES IN A REAL APP !!!
+# Instead, set and test environment variables, like below
+client = Octokit::Client.new :access_token => ENV['MY_PERSONAL_TOKEN']
+
+results = client.search_code('addClass user:mozilla')
+total_count = results.total_count
+
+last_response = client.last_response
+number_of_pages = last_response.rels[:last].href.match(/page=(\d+).*$/)[1]
+
+puts last_response.rels[:last].href
+puts "There are #{total_count} results, on #{number_of_pages} pages!"
+numbers = ""
+for i in 1..number_of_pages.to_i
+  numbers << "[#{i}] "
+end
+puts numbers
+random_page = Random.new
+random_page = random_page.rand(1..number_of_pages.to_i)
+
+puts "A User appeared, and clicked number #{random_page}!"
 prev_page_href = client.last_response.rels[:prev] ? client.last_response.rels[:prev].href : "(none)"
 next_page_href = client.last_response.rels[:next] ? client.last_response.rels[:next].href : "(none)"
 
