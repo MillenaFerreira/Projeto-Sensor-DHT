@@ -45,8 +45,9 @@ Os dispositivos mais tradicionais possuem uma conexão com o sensor de temperatu
 Existem diversos sensores de acordo com a aplicação como, por exemplo o LM34/35/335, TMP36 e DS18B20 todos eles são usados para a mesma função, este projeto utilizará a família DHT por conta da sua viabilidade e acessibilidade além de ter um baixo custo no mercado e a sua precisão ao medir a temperatura.
 DHT11 é o “irmão mais velho”, ou seja, tem menos benefícios em relação ao DHT22, portanto, um preço mais alto. O DHT11 pode ser usado para projetos onde não a necessita de uma alta precisão de medição, enquanto se desejar algo mais preciso deve escolher o DHT22. O DHT22 também não é de alta precisão, mas tem um desempenho maior para a maioria dos projetos do DIY “Faça você mesmo”.
 
-IMAGEM:  ![image](https://user-images.githubusercontent.com/88831304/168301917-11105c64-f632-49d1-84e8-14afcae597ad.png)
-
+| Figura 2: Estrutura|
+|![image](https://user-images.githubusercontent.com/88831304/168301917-11105c64-f632-49d1-84e8-14afcae597ad.png)
+| Sensores |
 ## DHT22
 
 O sensor de umidade e temperatura DHT22 é um sensor que mede a umidade do ar em porcentagens 0 a 100% e a temperatura no intervalo de - 40 a 80ºC com pressão de +-2% para medição de temperatura, por essas características, utilizado em projetos que existem apenas um pino e pode ser integrado a qualquer plataforma micro controladora com o PIC que será utilizado neste projeto.
