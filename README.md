@@ -55,7 +55,8 @@ Atenção ao utiliza-lo:
 
 •	Não use este produto em dispositivos de segurança ou parada de emergência ou qualquer outra ocasião em que a falha do DHT22 possa causar danos pessoais.
 
-IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300129-a3c79b4a-a16d-4c7b-a46d-46fef685f122.png)
+IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168302642-c52703fb-7a31-4347-9d91-14f809c70a3b.png)
+
 
 INAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
 Pinagem do DHT22
