@@ -107,10 +107,10 @@ CORRENTE DO BLACKLIGHT	75mA  a  200mA
 DATA DE ENTRADA	4 a 8 bits
 CONTROLADOR	HD447780
 
-| Figura 1: Estrutura |
+| Figura 1: =DISPLAY LCD |
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168301131-e7cd4ce0-8524-41f9-b305-04fc5ebd0ecb.png)
-| Tabela |
+| Pinagem do LCD |
 
 ## Objetivo do projeto
 
