@@ -60,9 +60,10 @@ Atenção ao utiliza-lo:
 •	Evite usar o sensor em condições de orvalho.
 
 •	Não use este produto em dispositivos de segurança ou parada de emergência ou qualquer outra ocasião em que a falha do DHT22 possa causar danos pessoais.
-
-IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168302642-c52703fb-7a31-4347-9d91-14f809c70a3b.png)
-
+| Figura 1: Estrutura |
+|:--:|
+![image](https://user-images.githubusercontent.com/88831304/168302642-c52703fb-7a31-4347-9d91-14f809c70a3b.png)
+| Tabela |
 
 IMAGEM:   ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
 Pinagem do DHT22
