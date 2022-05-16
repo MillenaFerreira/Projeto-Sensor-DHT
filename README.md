@@ -89,10 +89,10 @@ MEMORIA DE PROGRAMAÇÃO	14KB
 RAM BYTES	368
 DATA EEPROM	256 bytes
 
-| Figura 1: Estrutura |
+| PIC16F887 |
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168300992-7938fd02-d67d-4ff8-b8df-52e2ffe59010.png)
-| Tabela |
+| Pinagem do PIC |
 
 ## LCD 16x02
 
@@ -108,7 +108,7 @@ CORRENTE DO BLACKLIGHT	75mA  a  200mA
 DATA DE ENTRADA	4 a 8 bits
 CONTROLADOR	HD447780
 
-| Figura 1: DISPLAY LCD |
+| DISPLAY LCD |
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168301131-e7cd4ce0-8524-41f9-b305-04fc5ebd0ecb.png)
 | Pinagem do LCD |
