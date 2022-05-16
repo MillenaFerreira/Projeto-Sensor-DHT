@@ -65,7 +65,7 @@ Atenção ao utiliza-lo:
 
 | Figura 3: DTH22 |
 |:--:|
-![image](https://user-images.githubusercontent.com/88831304/168302642-c52703fb-7a31-4347-9d91-14f809c70a3b.png)
+![image](https://user-images.githubusercontent.com/88831304/168610845-940f10bc-a86a-47bd-9d46-c81a6515d47f.png)
 | Tabela |
 
 | Figura 4: Pinagem do DHT22 |
