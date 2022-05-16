@@ -48,7 +48,7 @@ DHT11 é o “irmão mais velho”, ou seja, tem menos benefícios em relação 
 
 | Figura 2: Sensores|
 |:--:|
-|![image](https://user-images.githubusercontent.com/88831304/168301917-11105c64-f632-49d1-84e8-14afcae597ad.png)
+|![image](https://user-images.githubusercontent.com/88831304/168611408-cf4dc540-b7f6-4492-8b96-a424390b2a57.png)
 | Fonte: Baú da Eletrônica |
 
 ## DHT22
