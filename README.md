@@ -98,15 +98,10 @@ DATA EEPROM	256 bytes
 
 O Display LCD 16x2 é um modelo de display vastamente utilizado em projetos onde se necessita uma interface homem-máquina (IHM). Ele é composto por 16 colunas e 2 linhas com a escrita na cor branca e sua backlight (luz de fundo) azul para exibição de caracteres, letras e números de forma clara e nítida, melhorando a visibilidade para quem recebe a informação. 
 Ele utiliza o controlador HD44780, utilizado em toda indústria de LCD's como base de interface que pode ser operado em 4 ou 8-bits paralelamente. Sua conexão é feita através de 16 pinos, sendo 12 deles para conexão básica com o micro controlador e 11 deles pinos de entrada/saída (I/O) e os demais pinos para ajuste de contraste através de potenciômetros, trimpots e afins e para a alimentação da backlight. Também é possível fazer a comunicação I2C com um micro controlador. Fácil interação com qualquer micro controlador, como Arduino, Raspberry, PIC, entre outros, o display 16x2 ideal para empresas de tecnologia, projetistas, estudantes, hobbys às e iniciantes na profissão de programação.
-
-LCD 16X02
-TENSÃO DE OPERAÇÃO	4,5V  a  5,5V
-TENSÃO DE ENTRADA	DC 0,3V a +0,3V
-TEMPERATURA DE OPERAÇÃO MÁX.	+50°C
-CORRENTE	1.0mA  a 1.5mA
-CORRENTE DO BLACKLIGHT	75mA  a  200mA
-DATA DE ENTRADA	4 a 8 bits
-CONTROLADOR	HD447780
+| LCD |
+|:--:|
+![image](https://user-images.githubusercontent.com/88831304/168577650-dfd96324-ddf8-4bea-a490-d1acaa419dcd.png)
+| Tabela |
 
 | DISPLAY LCD |
 |:--:|
