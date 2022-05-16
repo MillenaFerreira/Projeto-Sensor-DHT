@@ -71,7 +71,7 @@ Atenção ao utiliza-lo:
 | Figura 4: Pinagem do DHT22 |
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168300299-5e3a8919-e9f3-425b-813b-1fa6384a43d0.png)
-| Pinagem do DHT22 |
+| Fonte: Baú da Eletrônica |
 
 
 ## PIC16F887
@@ -108,7 +108,7 @@ CORRENTE DO BLACKLIGHT	75mA  a  200mA
 DATA DE ENTRADA	4 a 8 bits
 CONTROLADOR	HD447780
 
-| Figura 1: =DISPLAY LCD |
+| Figura 1: DISPLAY LCD |
 |:--:|
 ![image](https://user-images.githubusercontent.com/88831304/168301131-e7cd4ce0-8524-41f9-b305-04fc5ebd0ecb.png)
 | Pinagem do LCD |
