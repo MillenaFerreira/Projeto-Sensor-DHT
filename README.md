@@ -78,16 +78,10 @@ Atenção ao utiliza-lo:
 
 O PIC16F887 é um micro controlador de 8 bits da Microchip. O IC de 40 pinos possui ADC de 14 canais e 10 bits, tornando-o adequado para aplicações que exigem mais entradas ADC. O IC também possui 2 Comparadores, 2 Temporizadores (8 bits e 16 bits) e suporta protocolos de comunicação SPI, I2C e UART.
 
-
-PIC16F887
-CPU	8 – bits PIC
-NÚMEROS DE PINOS	40
-TENSÃO DE OPERAÇÃO	2 a 5,5V
-OSCILADOR EXTERNO	Suporta até 20MHz
-OSCILADOR INTERNO	8MHz  a  32KHz
-MEMORIA DE PROGRAMAÇÃO	14KB
-RAM BYTES	368
-DATA EEPROM	256 bytes
+| PIC16F887 |
+|:--:|
+![image](https://user-images.githubusercontent.com/88831304/168578136-6ba89c84-747d-4278-bcce-2a910d302dc8.png)
+| Tabela |
 
 | PIC16F887 |
 |:--:|
