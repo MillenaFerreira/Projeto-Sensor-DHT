@@ -1,5 +1,5 @@
 
-#Sensor de DHT11/22
+# Sensor de DHT11/22
 
 ## Equipe
 
