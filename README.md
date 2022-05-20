@@ -18,3 +18,4 @@ Neste trabalho será apresentado um dispositivo com a ideia de monitorar a tempe
 
 Para mais informações ou dúvidas sobre o projeto acesse o link abaixo:
 
+https://github.com/MillenaFerreira/MERGL/wiki
